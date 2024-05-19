@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.sunmoonbay",
+    "module": "Kappa-loom",
+    "version": "0.1.0-dev",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Kappa-loom-0.1.0-dev.jar",
+          "url": "Kappa-loom-0.1.0-dev.jar",
+          "size": 59759,
+          "sha512": "3777962801221d785329b499040c646eb9edbb8a47f1b5b4b6c9e79d2e3816ed66f8fb092ec5f6e3b90acc0fa7360ccb6970096e8cf74612a650735a0d31f9a5",
+          "sha256": "9ea7863fba6e8965141dc00aa89ac780ed4c8b634b00d889f2490eb44db0eb63",
+          "sha1": "4622d7b419cc35f8064ade319b33fc4b628a0273",
+          "md5": "3c9daa6e093b2af9b9e546ca4516ad82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.10.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Kappa-loom-0.1.0-dev.jar",
+          "url": "Kappa-loom-0.1.0-dev.jar",
+          "size": 59759,
+          "sha512": "3777962801221d785329b499040c646eb9edbb8a47f1b5b4b6c9e79d2e3816ed66f8fb092ec5f6e3b90acc0fa7360ccb6970096e8cf74612a650735a0d31f9a5",
+          "sha256": "9ea7863fba6e8965141dc00aa89ac780ed4c8b634b00d889f2490eb44db0eb63",
+          "sha1": "4622d7b419cc35f8064ade319b33fc4b628a0273",
+          "md5": "3c9daa6e093b2af9b9e546ca4516ad82"
+        }
+      ]
+    }
+  ]
+}
