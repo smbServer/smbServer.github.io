@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.kappamc",
+    "module": "LegacyLauncher",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "LegacyLauncher-1.0.0.jar",
+          "url": "LegacyLauncher-1.0.0.jar",
+          "size": 15725,
+          "sha512": "2cc118f81c0e0ae75c3ef0d8bc3ddf60a900d69805e6eb8b604883e828cae97d815717f7d8a7efced0da25582e7a4d0e63dbb42476b53ffe928943ed73b512f0",
+          "sha256": "40ccbe5a124b5d165bbb3fe522edb5b843defb3e4c7326192865d93cb01e46e2",
+          "sha1": "1cea2a5d71a4920c096765130c6b9dd624941e68",
+          "md5": "fa099638954089384370f49f55e63a90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.19.0"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "LegacyLauncher-1.0.0.jar",
+          "url": "LegacyLauncher-1.0.0.jar",
+          "size": 15725,
+          "sha512": "2cc118f81c0e0ae75c3ef0d8bc3ddf60a900d69805e6eb8b604883e828cae97d815717f7d8a7efced0da25582e7a4d0e63dbb42476b53ffe928943ed73b512f0",
+          "sha256": "40ccbe5a124b5d165bbb3fe522edb5b843defb3e4c7326192865d93cb01e46e2",
+          "sha1": "1cea2a5d71a4920c096765130c6b9dd624941e68",
+          "md5": "fa099638954089384370f49f55e63a90"
+        }
+      ]
+    }
+  ]
+}
